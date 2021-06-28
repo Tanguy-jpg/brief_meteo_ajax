@@ -31,7 +31,9 @@ article{
     align-items: center;
     justify-content: center;
     opacity: 0.7;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    flex-direction: column;
+    text-align: center;
 }
 article:hover{
     opacity: 1;
