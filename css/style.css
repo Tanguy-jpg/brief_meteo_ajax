@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bleu: #5E2BFF;
+    --violet: #C04CFD;
+    --rose: #FC6DAB;
+    --beige: #F7F6C5;
+    --blanc: #F3FAE1;
+    --gris: #444444;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background: var(--blanc);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article{
+    width:20%;
+    height: 90%;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: -14px 11px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 5vh;
+    cursor:pointer;
+    color: var(--gris);
+    font-family: 'Righteous', cursive;
+    transition: 0.3s;
+}
+h2:hover{
+    font-size: 5.3vh;
+    background-color: rgba(71, 65, 65, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+/* TEMPERATURE */
+#one{
+    background:var(--bleu);
+}
+/* TEMPS */
+#two{
+    background: var(--violet);
+}
+/* HUMIDITÉ */
+#three{
+    background: var(--rose);
+}
+/* PRESSION/MER */
+#four{
+    background: var(--beige);
+}
