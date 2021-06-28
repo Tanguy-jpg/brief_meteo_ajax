@@ -25,6 +25,7 @@ function temp(n){
             },
 
             error: function(error){
+                console.log(error);
                 document.querySelector(n+' p').style="color:#c50d0d;"
                 document.querySelector(n+' p').innerHTML= "invalid entry";
             }
