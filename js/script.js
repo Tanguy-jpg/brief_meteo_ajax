@@ -3,7 +3,7 @@ function temp(n){
 
     $(document).ready(function(){
         $.ajax({
-            url: `http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=e97d6758af72995c3e16f0f40300d7b3` ,
+            url: `https://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=e97d6758af72995c3e16f0f40300d7b3` ,
             type: "GET",
 
             success: function (result){
