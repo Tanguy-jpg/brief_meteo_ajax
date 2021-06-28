@@ -16,6 +16,8 @@ function temp(n){
                     document.querySelector(n+' strong').style="color:#c50d0d;" //red
                 }else if(temperature>=20){
                     document.querySelector(n+' strong').style="color:#0feb0f;" //green
+                }else if(temperature>=15){
+                    document.querySelector(n+' strong').style="color:#c1f58a;" //green
                 }else if(temperature>=10){
                     document.querySelector(n+' strong').style="color:#dceb0f;" //yellow
                 }else if(temperature>=0){
