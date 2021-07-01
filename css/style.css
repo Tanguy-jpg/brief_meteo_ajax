@@ -21,6 +21,8 @@ body{
     align-items: center;
     font-family: 'Righteous', cursive;
 }
+
+/* main articles*/
 article{
     width:20%;
     height: 90%;
@@ -40,6 +42,18 @@ article{
 article:hover{
     opacity: 1;
 }
+#one{
+    background:var(--bleu);
+}
+#two{
+    background: var(--violet);
+}
+#three{
+    background: var(--rose);
+}
+#four{
+    background: var(--beige);
+}
 
 h2{
     writing-mode: vertical-rl;
@@ -55,24 +69,38 @@ h2:hover{
     border-radius: 10px;
     transition: 0.3s;
 }
-
 input{
     border-radius: 20px;
     width: 80%;
 }
-/* TEMPERATURE */
-#one{
-    background:var(--bleu);
+/* Chart */
+
+#chart{
+    background:rgb(255, 255, 255);
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: -14px 11px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-/* TEMPS */
-#two{
-    background: var(--violet);
+#myChart{
+    height: 20%;
+    width: 20%;
+    transform: scale(0.8);
 }
-/* HUMIDITÉ */
-#three{
-    background: var(--rose);
+
+#close{
+   position: absolute;
+   right: 2%;
 }
-/* PRESSION/MER */
-#four{
-    background: var(--beige);
+.hide{
+    display: none;
 }
+
+

@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Base -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brief Meteo Ajax</title>
-    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/icone.png" type="image/x-icon">
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.0/dist/chart.min.js"></script>
+    <!--___Scripts___ -->
+    <!-- libs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.0/chart.min.js" integrity="sha512-JxJpoAvmomz0MbIgw9mx+zZJLEvC6hIgQ6NcpFhVmbK1Uh5WynnRTTSGv3BTZMNBpPbocmdSJfldgV5lVnPtIw==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- myscripts -->
     <script src="js/script.js" defer></script>
+    <script src="js/chart.js" defer></script>
 </head>
 <body>
+    <!-- Main Articles -->
     <article id="one">
         <h2 onclick="temp('#one')">Place One</h2>
         <p></p>
@@ -31,5 +40,11 @@
         <h2 onclick="temp('#four')">Place Four</h2>
         <p></p>
     </article>
+    <!-- Articles secondaires-->
+    <!-- <div id="chart" class="hide">
+        <canvas id="myChart"></canvas>
+        <h2 id="close">CLOSE</h2>
+    </div> -->
+
 </body>
 </html>
