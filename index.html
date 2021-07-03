@@ -27,24 +27,28 @@
     <article id="one">
         <h2 onclick="temp('#one')">Place One</h2>
         <p></p>
+        <input class="hide" type="button" value="Graph" onclick="graph('#one')">
     </article>
     <article id="two">
         <h2 onclick="temp('#two')">Place Two</h2>
         <p></p>
+        <input class="hide" type="button" value="Graph" onclick="graph('#two')">
     </article>
     <article id="three">
         <h2 onclick="temp('#three')">Place Three</h2>
         <p></p>
+        <input class="hide" type="button" value="Graph" onclick="graph('#three')">
     </article>
     <article id="four">
         <h2 onclick="temp('#four')">Place Four</h2>
         <p></p>
+        <input class="hide" type="button" value="Graph" onclick="graph('#four')">
     </article>
     <!-- Articles secondaires-->
-    <!-- <div id="chart" class="hide">
+    <div id="chart" style="display: none;">
         <canvas id="myChart"></canvas>
-        <h2 id="close">CLOSE</h2>
-    </div> -->
+        <h2 id="close" onclick="close('#chart')">CLOSE</h2>
+    </div>
 
 </body>
 </html>
